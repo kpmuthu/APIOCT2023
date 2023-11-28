@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="week3.day2.assignment.GetIssue">
+        <methods>
+          <include name="get"/>
+          <include name="Afterdeletevalidation"/>
+          <include name="baseclass"/>
+        </methods>
+      </class> <!-- week3.day2.assignment.GetIssue -->
+      <class name="week3.day2.assignment.DeleteIssue">
+        <methods>
+          <include name="Afterdeletevalidation"/>
+          <include name="delete"/>
+          <include name="baseclass"/>
+        </methods>
+      </class> <!-- week3.day2.assignment.DeleteIssue -->
+      <class name="week3.day2.assignment.UpdateIssue">
+        <methods>
+          <include name="Afterdeletevalidation"/>
+          <include name="baseclass"/>
+          <include name="update"/>
+        </methods>
+      </class> <!-- week3.day2.assignment.UpdateIssue -->
+      <class name="week3.day2.assignment.CreateIssue">
+        <methods>
+          <include name="create"/>
+          <include name="Afterdeletevalidation"/>
+          <include name="baseclass"/>
+        </methods>
+      </class> <!-- week3.day2.assignment.CreateIssue -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
